@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="s7.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">        
+        <title>Hatch</title>
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<script
+src="http://maps.googleapis.com/maps/api/js">
+</script>
+
+<script>
+var myCenter=new google.maps.LatLng(33.6694600,-117.8231100);
+
+function initialize()
+{
+var mapProp = {
+  center:myCenter,
+  zoom:12,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var image = {
+    url: 'Icons/programming-code-signs.png',
+    // This marker is 20 pixels wide by 32 pixels high.
+    size: new google.maps.Size(50, 50),
+    // The origin for this image is (0, 0).
+    origin: new google.maps.Point(0, 0),
+    // The anchor for this image is the base of the flagpole at (0, 32).
+    anchor: new google.maps.Point(0, 25),
+    scaledSize: new google.maps.Size(25, 25)
+  };
+
+var marker=new google.maps.Marker({
+  position:myCenter,
+  icon:image
+  });
+
+marker.setMap(map);
+
+var infowindow = new google.maps.InfoWindow({
+  content:"Geek Label<br>4th Floor<br>27-33 Bethnal Green Road<br>Shoreditch<br>London<br>E1 6LA"
+  });
+
+//infowindow.open(map,marker);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>      
+
+    </head>
+    <body>
+        <p class="p9"><i class="fa fa-navicon"></i></p>
+        <p class="p10">MENU</p>
+        <div id="section1">
+            <div class="hatch"><h3>Hatch</h3></div>
+            <div class="hexmlp"><h1>HExMLP | our new york debut</h1></div>            
+        </div>
+             
+        <div id="section2">
+            <div class="floating-box1">
+                <h3 class="hayley">HAYLEY ELSAESSER @ NYFW</h3>
+            </div>
+            <div class="floating-box2"></div>
+        </div>
+
+        <div id="section3">
+             <div class="floating-box3">
+                 <div class="mouthy"><h4>MOUTHY FLARES</h4></div>
+                 <p class="p1">The Native Tongue is part of the continuing study of lite on Earth</p>
+             </div>
+             <div class="floating-box4"></div>
+             <div class="floating-box5">
+                 <p class="p2">Enlitened by the past and</p>
+                 <p class="p3">shaped for the future.</p>
+              <div class="lips"><img src="images/lips.jpg" width="120px" height="80px" alt="lips"></div>
+             </div>
+             <div class="floating-box6">
+                 <div class="mini"><h4>MOUTHY MINI DRESS</h4></div>
+                 <p class="p4">Kid Styles</p>
+             </div>
+        </div>
+             
+        <div id="section4">
+            <div class="floating-box7">
+                <div class="kutija">
+<div class="floating-box">
+    <p class="p7"><i class="fa fa-history"></i></p>
+    <p class="p8">TIMER</p>
+</div>
+<div class="floating-box">
+    <p class="p7"><i class="fa fa-volume-down"></i></p>
+    <p class="p8">VILUME</p>
+</div>
+<div class="floating-box">
+    <p class="p7"><i class="fa fa-volume-up"></i></p>
+    <p class="p8">VILUME II</p>
+</div>
+<div class="floating-box">
+    <p class="p7"><i class="fa fa-volume-up"></i></p>
+    <p class="p8">VILUME III</p>
+</div>
+<div class="floating-box">
+    <p class="p7"><i class="fa fa-volume-off"></i></p>
+    <p class="p8">MUTE</p>
+</div>
+<div class="floating-box">
+    <p class="p7"><i class="fa fa-pencil"></i></p>
+    <p class="p8">PEN</p>
+</div>
+<div class="floating-box">
+    <p class="p7"><i class="fa fa-eyedropper"></i></p>
+    <p class="p8">EYEDROP</p>
+</div>
+<div class="floating-box">
+    <p class="p7"><i class="fa fa-paint-brush"></i></p>
+    <p class="p8">LINER</p>
+</div>
+<div class="floating-box">
+    <p class="p7"><i class="fa fa-flag-o"></i></p>
+    <p class="p8">FLAG</p>
+</div>
+<div class="floating-box">
+    <p class="p7"><i class="fa fa-tasks"></i></p>
+    <p class="p8">TAPE</p>
+</div>
+<div class="floating-box">
+    <p class="p7"><i class="fa fa-sliders"></i></p>
+    <p class="p8">EQUALIZER</p>
+</div>
+<div class="floating-box">
+    <p class="p7"><i class="fa fa-microphone"></i></p>
+    <p class="p8">MIC</p>
+</div>
+<div class="floating-box">
+    <p class="p7"><i class="fa fa-camera"></i></p>
+    <p class="p8">CAMERA</p>
+</div>
+<div class="floating-box">
+    <p class="p7"><i class="fa fa-headphones"></i></p>
+    <p class="p8">HEADPH</p>
+</div>
+<div class="floating-box">
+    <p class="p7"><i class="fa fa-volume-down"></i></p>
+    <p class="p8">SPEAKER</p>
+</div>
+<div class="floating-box">
+    <p class="p7"><i class="fa fa-music"></i></p>
+    <p class="p8">MUSIC</p>
+</div>
+<div class="floating-box">
+    <p class="p7"><i class="fa fa-newspaper-o"></i></p>
+    <p class="p8">BLOG</p>
+</div>
+<div class="floating-box">
+    <p class="p7"><i class="fa fa-image"></i></p>
+    <p class="p8">IMAGE</p>
+</div>
+<div class="floating-box">
+    <p class="p7"><i class="fa fa-television"></i></p>
+    <p class="p8">MEDIA</p>
+</div>
+<div class="floating-box">
+    <p class="p7"><i class="fa fa-lightbulb-o"></i></p>
+    <p class="p8">BULB</p>
+</div>
+                </div>
+            </div>
+            <div class="floating-box8">
+                <p class="p5">ICONIC STYLES PAIRED WITH THE BEST</p>
+                <p class="p6">ON EVOLVING TECHNOLOGY.</p>
+            </div>
+            <div class="floating-box9"></div>
+        </div>
+
+        <div id="section5">                                  
+             
+        </div>
+
+        <div id="section6">
+            <p class="p11">Let's continue the conversation.</p>
+        </div>
+
+        <div id="section7">
+            <div class="floating-box10">
+                <p class="p12">VISIT US</p>
+                <p class="p13">5151 California Ave., Suite 230</p>
+                <p class="p13">Irvine, CA 92617</p>
+                <p class="p13">949.614.0759</p>
+                <p class="p14">CONTACT US</p>
+                <p class="p13">info@columnfivemedia.com</p>
+                <p class="p13">+1 949.614.0759</p>
+                <p class="p14">LET'S BE FRIENDS</p>
+                <p class="p15"><i class="fa fa-twitter"></i> <i class="fa fa-facebook"></i> <i class="fa fa-google-plus"></i></p>
+            </div>
+            <div class="floating-box11">
+              <div id="googleMap"></div>
+            </div>
+        </div>
+        <div class="mob"></div>
+        <div id="section8">
+           <p class="p16">Sizing Guide Shipping  International Shippin  Returns  Order Tracking  Careers  Terms & Privacy</p> 
+        </div>
+        <footer id="foot01"></footer>
+        <script src="Script.js"></script>  
+    </body>
+</html>

@@ -1,0 +1,271 @@
+body {
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    box-shadow: 0px 0px 6px grey;
+    font-family: Arial;
+    text-align: center;
+}
+#section1 {
+    max-width: 90%;
+    height: 400px;
+    background: url(images/selfie1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+#section2 {
+    max-width: 90%;
+    height: 250px;    
+}
+#section3 {
+    max-width: 90%;
+    height: 500px;    
+}
+#section4 {
+    max-width: 90%;
+    height: 330px;
+    color: #ffffff;
+}
+#section5 {
+    max-width: 90%;
+    height: 120px;
+    background-color: #ffb3ff;
+    clear: left;
+}
+#section6 {
+    max-width: 90%;
+    height: auto;    
+    padding: 35px 0;
+}
+#section7 {
+    max-width: 90%;
+    height: 200px;
+    background-color: #ffff66;    
+}
+#section8 {
+    max-width: 90%;
+    height: auto;
+    background-color:  #000000;
+    padding: 40px 0;
+}
+.floating-box1 {
+    float: left;
+    width: 50%;
+    height: 250px;
+    background: url(images/hands.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;      
+}
+.floating-box2 {
+    float: left;
+    width: 50%;
+    height: 250px;
+    background: url(images/paper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;      
+}
+.floating-box3 {
+    float: left;
+    width: 64%;
+    height: 250px;          
+}
+.floating-box4 {
+    float: right;
+    width: 36%;
+    height: 500px;
+    background: url(images/model.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.floating-box5 {
+    float: left;
+    width: 32%;
+    height: 250px;
+    background-color: #c6ff1a;  
+}
+.floating-box6 {
+    float: left;
+    width: 32%;
+    height: 250px;
+    background-color: #00b8e6; 
+}
+.floating-box7 {
+    float: left;
+    width: 34%;
+    height: 330px;
+    background-color: #000000;     
+}
+.floating-box8 {
+    float: left;
+    width: 34%;
+    height: 330px;
+    background-color: #000000;      
+}
+.floating-box9 {
+    float: left;
+    width: 32%;
+    height: 330px;
+    background: url(images/shoe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.floating-box10 {
+    float: left;
+    width: 50%;
+    height: 200px;
+    background-color: #00ccff;
+    text-align: left;  
+}
+.floating-box11 {
+    float: left;
+    width: 50%;
+    height: 200px;      
+}
+.floating-box {
+    float: left;
+    width: 38px;
+    height: 40px;
+    margin: 5px;      
+}
+#googleMap {    
+    height: 200px;
+    width: 100%;
+    -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+    -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+    box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+}
+.hatch {
+    text-align: left;
+    padding: 10px 60px;
+}
+.hexmlp {
+    padding: 70px 0;
+    text-shadow: 2px 2px 4px #000000;
+}
+.hayley {
+    padding: 90px 0;
+}
+.mouthy {
+    text-align: left;
+    padding: 80px 0 0 75px ;
+}
+.p1 {
+    font-size: 80%;
+    font-weight: bold;
+    margin: -20px 0 0 0;
+}
+.p2 {
+    font-size: 80%;
+    font-weight: bold;
+    padding: 90px 0 0 0;
+}
+.p3 {
+    text-align: left;
+    font-size: 80%;
+    font-weight: bold;
+    margin: -15px 0 0 60px;
+}
+.lips {
+    margin-top: 20px;
+}
+.mini {
+    margin-top: 100px;
+}
+.p4 {
+    text-align: left;
+    font-size: 80%;
+    font-weight: bold;
+    margin: -20px 0 0 55px;
+}
+.p5 {
+    font-size: 70%;
+    font-weight: bold;
+    margin-top: 120px;
+}
+.p6 {
+    text-align: left;
+    font-size: 70%;
+    font-weight: bold;
+    margin: -8px 0 0 35px;
+}
+.p7 {
+    font-size: 150%;
+}
+.p8 {
+    font-size: 50%;
+    margin-top: -25px;
+}
+.kutija {
+    width: 85%;
+    height: 250px;
+    margin: 35px 0 0 50px;
+}
+.p9 {
+    text-align: right;
+    color: #666666;
+    font-size: 150%;
+    float: right;
+    margin: 10px 40px 0 0;
+}
+.p10 {
+    font-size: 70%;
+    font-weight: bold;
+    color: #666666;
+    float: right;
+    margin: 40px -28px 0 0;
+}
+.p11 {
+    font-size: 80%;
+    font-weight: bold;    
+}
+.p12 {
+    font-size: 70%;
+    font-weight: bold;
+    margin: 40px 0 0 50px;
+}
+.p13 {
+    font-size: 70%;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 0 50px;
+}
+.p14 {
+    font-size: 70%;
+    font-weight: bold;
+    margin: 10px 0 0 50px;
+}
+.p15 {
+    margin: 0 0 0 50px;
+}
+.p16 {
+    font-size: 70%;
+    font-weight: bold;
+    color: #ffffff;    
+}
+#foot01 {
+    font-size: 70%;
+    font-weight: bold;
+    color: #666666;
+    margin-top: -35px;    
+}
+.mob {
+    clear: left;
+}
+@media only screen and (max-width: 1240px) {
+    /* For mobile phones: */
+    body {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .floating-box1, .floating-box2,
+    .floating-box3, .floating-box4,
+    .floating-box5, .floating-box6, 
+    .floating-box7, .floating-box8, 
+    .floating-box9, .floating-box10,
+    .floating-box11 {
+        width: 100%;
+    }
+}
